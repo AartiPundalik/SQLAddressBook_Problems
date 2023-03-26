@@ -11,3 +11,9 @@ PhoneNumber BIGINT NOT NULL,
 Email VARCHAR(50) NOT NULL
 );
 SELECT * FROM  AddressBook_DB
+
+INSERT INTO  AddressBook_DB (FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email)
+VALUES
+	('Aarti','Pundalik','Location','Pune','Maharastra',411044,1234567890,'aarti.pundalik@gmail.com'),
+('Tanvi','Shinde','Location','Pune','Maharastra',411044,1234567890, 'tanvi.shinde@gmail.com'),
+('Aditya','Roy Kapoor','Location','Mumbai','Maharastra',411044,1234567890,'aditya.roykapoor@gmail.com')
