@@ -17,3 +17,9 @@ VALUES
 	('Aarti','Pundalik','Location','Pune','Maharastra',411044,1234567890,'aarti.pundalik@gmail.com'),
 ('Tanvi','Shinde','Location','Pune','Maharastra',411044,1234567890, 'tanvi.shinde@gmail.com'),
 ('Aditya','Roy Kapoor','Location','Mumbai','Maharastra',411044,1234567890,'aditya.roykapoor@gmail.com')
+
+-- UC4 Edit Contact
+UPDATE AddressBook_DB SET LastName = 'Pundalik' WHERE FirstName = 'Aarti'
+UPDATE AddressBook_DB SET Address = 'Nigdi ' WHERE FirstName = 'Aarti'
+UPDATE AddressBook_DB SET City = 'Pune' WHERE FirstName = 'Aarti'
+
