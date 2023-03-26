@@ -30,3 +30,7 @@ DELETE FROM AddressBook_DB WHERE FirstName = 'Aarti'
 SELECT * FROM AddressBook_DB WHERE City = 'Pune'
 SELECT * FROM AddressBook_DB WHERE State = 'Maharastra'
 
+-- UC7 Size of Address book 
+SELECT COUNT (*) FROM AddressBook_DB GROUP BY City 
+SELECT COUNT (*) FROM AddressBook_DB GROUP BY State
+
