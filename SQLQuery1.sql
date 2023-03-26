@@ -67,3 +67,5 @@ UPDATE AddressBook_DB
 SET AddressBookNAME = FirstName + LastName
 WHERE City = 'Pune'
 
+-- UC10 get number of contact persons
+SELECT AddressBookTYPE , COUNT (AddressBookTYPE) AS NoOfContactPresent FROM AddressBook_DB GROUP BY AddressBookTYPE
