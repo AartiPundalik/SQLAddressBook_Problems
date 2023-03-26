@@ -34,3 +34,8 @@ SELECT * FROM AddressBook_DB WHERE State = 'Maharastra'
 SELECT COUNT (*) FROM AddressBook_DB GROUP BY City 
 SELECT COUNT (*) FROM AddressBook_DB GROUP BY State
 
+SELECT COUNT (*) FROM AddressBook_DB WHERE City = 'Pune' GROUP BY City
+SELECT COUNT (*) FROM AddressBook_DB WHERE State = 'Maharastra' GROUP BY State
+
+SELECT COUNT (*) AS CityCount,City FROM AddressBook_DB GROUP BY City
+SELECT COUNT (*) AS StateCount,State FROM AddressBook_DB GROUP BY State
