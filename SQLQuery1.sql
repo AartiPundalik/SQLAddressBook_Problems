@@ -23,3 +23,5 @@ UPDATE AddressBook_DB SET LastName = 'Pundalik' WHERE FirstName = 'Aarti'
 UPDATE AddressBook_DB SET Address = 'Nigdi ' WHERE FirstName = 'Aarti'
 UPDATE AddressBook_DB SET City = 'Pune' WHERE FirstName = 'Aarti'
 
+-- UC5 Delete contact
+DELETE FROM AddressBook_DB WHERE FirstName = 'Aarti'
