@@ -25,3 +25,8 @@ UPDATE AddressBook_DB SET City = 'Pune' WHERE FirstName = 'Aarti'
 
 -- UC5 Delete contact
 DELETE FROM AddressBook_DB WHERE FirstName = 'Aarti'
+
+-- UC6 Retrive By City or State
+SELECT * FROM AddressBook_DB WHERE City = 'Pune'
+SELECT * FROM AddressBook_DB WHERE State = 'Maharastra'
+
