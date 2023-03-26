@@ -69,3 +69,8 @@ WHERE City = 'Pune'
 
 -- UC10 get number of contact persons
 SELECT AddressBookTYPE , COUNT (AddressBookTYPE) AS NoOfContactPresent FROM AddressBook_DB GROUP BY AddressBookTYPE
+
+-- UC11 add person to both Friend and Family
+INSERT INTO AddressBook_DB(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email,AddressBookTYPE,AddressBookNAME)
+VALUES ('Sucheta','Sangita','Yogen','Pune','Maharastra',411044,1234512345,'sangita.gmail.com','Friend','Sucheta'),
+('Anil','Sunil','Mangesh','Mumbai','Maharastra',411044,1234512345,'sunil.gmail.com','Family','Anil')
